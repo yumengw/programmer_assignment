@@ -72,7 +72,7 @@ Options:
 
 ### In addition, the script will generate a "Results" folder (folder name can be change through -o) containing the following files:
 
-1) *blast_out.m8*: Blast output file in m8 format.
-2) *filtered_seq.fna*: Fasta file containing reads greater than 100bp, average read quality scores greater than 20, primers and adaptors trimmed.
-3) *alignment.tsv*: Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences.
+1) __blast_out.m8__: Blast output file in m8 format.
+2) __filtered_seq.fna__: Fasta file containing reads greater than 100bp, average read quality scores greater than 20, primers and adaptors trimmed.
+3) __alignment.tsv__: Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences.
 
