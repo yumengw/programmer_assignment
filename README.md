@@ -7,17 +7,22 @@ This pipeline is designed to remove primer and adaptor sequences based on blast.
 1. python2.7 or python3.6 (or above)
 
 2. [Biopython](https://biopython.org)
+
 To install Biopython through pip:
 ```
 pip install biopython
 ```
 
 3. [blast command line](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
+
 To install blast, follow the instruction [here](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 
 ## Required input
+
 Fasta and quality files containing the reads and corresponding quality scores.
+
 Default Primer Sequence:CGCCGTTTCCCAGTAGGTCTC
+
 Default Adaptor Sequence:ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG
 
 ## Commands for running
