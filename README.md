@@ -8,22 +8,22 @@ This pipeline is designed to remove primer and adaptor sequences based on blast.
 
 2. [Biopython](https://biopython.org)
 
-To install Biopython through pip:
-```
-pip install biopython
-```
+    To install Biopython through pip:
+    ```
+    pip install biopython
+    ```
 
 3. [blast command line](https://blast.ncbi.nlm.nih.gov/Blast.cgi)
 
-To install blast, follow the instruction [here](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
+    To install blast, follow the instruction [here](https://www.ncbi.nlm.nih.gov/books/NBK279690/)
 
 ## Required input
 
 Fasta and quality files containing the reads and corresponding quality scores.
 
-Default Primer Sequence:CGCCGTTTCCCAGTAGGTCTC
+Default Primer Sequence: CGCCGTTTCCCAGTAGGTCTC
 
-Default Adaptor Sequence:ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG
+Default Adaptor Sequence: ACTGAGTGGGAGGCAAGGCACACAGGGGATAGG
 
 ## Commands for running
 ```
@@ -61,7 +61,7 @@ Options:
 
 ## Output
 
-The program should generate the following output:
+###The program should generate the following output:
 
 1) Total number of reads in the dataset.
 2) Total number of reads greater than 100 bp (cutoff can be changed through -l).
@@ -70,9 +70,9 @@ The program should generate the following output:
 5) Total number of reads with adaptor sequences.
 6) Total number of reads with both primer and adaptor sequences.
 
-In addition, the script will generate a "Results" folder (folder name can be change through -o) containing the following files:
+###In addition, the script will generate a "Results" folder (folder name can be change through -o) containing the following files:
 
-1) blast_out.m8: Blast output file in m8 format.
-2) filtered_seq.fna: Fasta file containing reads greater than 100bp, average read quality scores greater than 20, primers and adaptors trimmed.
-3) alignment.tsv: Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences.
+1) *blast_out.m8*: Blast output file in m8 format.
+2) *filtered_seq.fna*: Fasta file containing reads greater than 100bp, average read quality scores greater than 20, primers and adaptors trimmed.
+3) *alignment.tsv*: Tab de-limited text file containing the read identifiers along with the starting and end positions of the primer or adaptor sequences.
 
