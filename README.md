@@ -61,7 +61,7 @@ Options:
 
 ## Output
 
-###The program should generate the following output:
+### The program should generate the following output:
 
 1) Total number of reads in the dataset.
 2) Total number of reads greater than 100 bp (cutoff can be changed through -l).
@@ -70,7 +70,7 @@ Options:
 5) Total number of reads with adaptor sequences.
 6) Total number of reads with both primer and adaptor sequences.
 
-###In addition, the script will generate a "Results" folder (folder name can be change through -o) containing the following files:
+### In addition, the script will generate a "Results" folder (folder name can be change through -o) containing the following files:
 
 1) *blast_out.m8*: Blast output file in m8 format.
 2) *filtered_seq.fna*: Fasta file containing reads greater than 100bp, average read quality scores greater than 20, primers and adaptors trimmed.
